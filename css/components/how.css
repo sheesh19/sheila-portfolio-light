@@ -1,0 +1,40 @@
+.how-container  {
+    background-image: url('../../assets/inspire9.jpg');
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    border-radius: 2%;
+    display: flex;
+}
+
+.how-half {
+    height: 100%;
+    width: 50%;
+}
+
+.how-prod {
+    background-color: var(--dark-grey-overlay);
+    border-radius: 2% 0 0 2%;
+}
+
+.how-soft {
+    background-color: var(--teal-overlay);
+    border-radius: 0 2% 2% 0;
+}
+
+.how-banner {
+    background-color: var(--light-grey-overlay);
+    text-align: center;
+    padding: 2%;
+    margin-top: 16%;
+}
+
+.how-grid {
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 2fr;
+    margin: 4%;
+    row-gap: 4vh;
+    align-content: center;
+}

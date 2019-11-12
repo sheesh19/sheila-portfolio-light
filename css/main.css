@@ -6,6 +6,9 @@
     --grey: #888888;
     --grey-overlay: rgba(119, 119, 119, .72);
     --dark-overlay: rgba(16, 22, 23, 0.9);
+    --teal-overlay: rgba(82, 130, 136, 0.88);
+    --dark-grey-overlay: rgba(102, 102, 102, 0.88);
+    --light-grey-overlay: rgba(238, 238, 238, 0.8);
 }
 
 /* Main Body */
@@ -13,7 +16,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    font-weight: 400;
+    font-weight: 200;
     color: var(--grey);
 }
 
