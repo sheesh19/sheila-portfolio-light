@@ -1,0 +1,7 @@
+.sidebar {
+    height: 100%;
+    position: sticky;
+    width: 100%;
+    background-color: var(--light-blue);
+    color: #eee;
+}

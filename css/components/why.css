@@ -1,0 +1,11 @@
+.why-icons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 4vw;
+    text-align: center;
+}
+
+.icon {
+    height: 100px;
+    width: 100px;
+}

@@ -1,0 +1,21 @@
+.banner {
+    height: 40vh;
+    background-image: url('../../assets/california.jpg');
+    position: relative;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 24vh;
+    background-color: var(--teal);
+    color: white;
+    text-align: center;
+    padding: 8vh;
+    border-radius: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+

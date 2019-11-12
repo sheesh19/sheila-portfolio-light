@@ -1,0 +1,64 @@
+/* Colors */
+
+:root {
+    --light-blue: rgba(112, 183, 192, 0.9); /* Light Blue: #70B7C0 */
+    --teal: rgba(82, 130, 136, 0.96);
+    --grey: #888888;
+    --grey-overlay: rgba(119, 119, 119, .72);
+    --dark-overlay: rgba(16, 22, 23, 0.9);
+}
+
+/* Main Body */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    font-weight: 400;
+    color: var(--grey);
+}
+
+h1, h2, h3 {
+    font-weight: 400;
+}
+
+h4 {
+    color: var(--light-blue);
+    font-weight: 400;
+    letter-spacing: 0.2em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.main-content-container {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    position: relative;
+}
+
+.content-container {
+    margin-top: 24vh;
+    width: 80%;
+    margin-left: 6vw;
+}
+
+.content-container h2 {
+    margin-bottom: 0;
+}
+
+.title-small {
+    margin-top: 1.6rem;
+    
+}
+
+.block-title {
+    display: flex;
+    color: var(--grey);
+    margin-bottom: 8vh;
+}
+
+.block-space {
+    margin-top: 16vh;
+}
