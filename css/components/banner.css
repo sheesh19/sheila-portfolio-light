@@ -1,5 +1,5 @@
 .banner {
-    height: 40vh;
+    height: 48vh;
     position: relative;
     object-fit: cover;
     background-size: cover;
@@ -10,7 +10,7 @@
 
 .banner-overlay {
     position: absolute;
-    top: 24vh;
+    top: 32vh;
     background-color: var(--teal);
     color: white;
     text-align: center;
