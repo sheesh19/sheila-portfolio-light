@@ -1,10 +1,11 @@
 .banner {
     height: 40vh;
-    background-image: url('../../assets/california.jpg');
     position: relative;
     object-fit: cover;
     background-size: cover;
     background-position: center;
+    background-image: url('../../assets/greece.jpg');
+
 }
 
 .banner-overlay {

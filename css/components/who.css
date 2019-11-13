@@ -1,0 +1,52 @@
+.who-banner {
+    height: 60vh;
+    position: relative;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../assets/california.jpg');
+
+}
+
+.block-title-who {
+    display: flex;
+    color: white;
+    margin-bottom: 2vh;    
+}
+
+.who-banner-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2vw;
+    align-items: center;
+}
+
+.who-overlay {
+    position: absolute;
+    top: 24vh;
+    background-color: var(--teal);
+    color: white;
+    text-align: center;
+    padding: 8vh;
+    border-radius: 2%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80%;
+}
+
+.who-img {
+    width: 100%;
+    border-radius: 1%;
+    box-shadow: var(--dark-grey-overlay) 1px 2px 2px;
+}
+
+.who-block {
+    height: 120vh;
+}
+
+.who-description {
+    display: flex; 
+    flex-direction: column;
+    font-weight: 200;
+    justify-content: space-evenly;
+}
