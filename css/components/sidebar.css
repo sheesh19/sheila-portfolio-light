@@ -4,4 +4,6 @@
     width: 100%;
     background-color: var(--light-blue);
     color: #eee;
+    top: 0;
+    padding-top: 24vh;
 }

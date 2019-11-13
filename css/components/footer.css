@@ -2,4 +2,45 @@
     background-color: var(--dark-grey-overlay);
     width: 100%;
     height: 24vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 32%;
+    margin-left: -6%;
+}
+
+.social-icon {
+    height: 40px;
+    width: 40px;
+}
+
+.social-clickable {
+    position: relative;
+    display: inline;
+}
+
+.social-overlay {
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+    position: absolute;
+    top: -24px;
+    border-radius: 4px;
+}
+
+.social-overlay:hover {
+    opacity: 0.3;
+    background-color: rgba(53, 69, 75, 1);
+    z-index: 1;
+}
+
+@media(max-width: 560px) {
+    .social {
+        width: 72%;
+    }
 }
