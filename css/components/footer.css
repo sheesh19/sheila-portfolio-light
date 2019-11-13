@@ -29,13 +29,13 @@
     width: 40px;
     opacity: 0;
     position: absolute;
-    top: -24px;
+    top: -25px;
     border-radius: 4px;
 }
 
 .social-overlay:hover {
     opacity: 0.3;
-    background-color: rgba(53, 69, 75, 1);
+    background-color: var(--teal-overlay);
     z-index: 1;
 }
 
