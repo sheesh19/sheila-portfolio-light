@@ -82,4 +82,9 @@
     .how-half {
         margin: 8vh 0;
     }
+
+    .how-grid {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 4vw;
+    }
 }

@@ -26,3 +26,9 @@
 .landing-text {
     margin-bottom: 8vh;
 }
+
+@media(max-width: 560px) {
+    .landing-half {
+        width: 80vw;
+    } 
+}

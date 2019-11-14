@@ -87,6 +87,7 @@ em {
 @media(max-width: 560px) {
     .main-content-container {
         display: inline;
+        position: absolute;
     }
 
     .content-container {
