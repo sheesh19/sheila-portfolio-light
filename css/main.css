@@ -82,3 +82,15 @@ a {
 em {
     color: transparent;
 }
+
+
+@media(max-width: 560px) {
+    .main-content-container {
+        display: inline;
+    }
+
+    .content-container {
+        width: 100%;
+        margin: 0;
+    }
+}

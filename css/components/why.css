@@ -9,3 +9,9 @@
     height: 100px;
     width: 100px;
 }
+
+@media(max-width: 560px) {
+    .why-icons {
+        grid-template-columns: 1fr;
+    }   
+}

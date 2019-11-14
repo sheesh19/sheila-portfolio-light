@@ -37,7 +37,6 @@
 .who-img {
     width: 100%;
     border-radius: 1%;
-    box-shadow: var(--dark-grey-overlay) 1px 2px 2px;
 }
 
 .who-block {
@@ -49,4 +48,24 @@
     flex-direction: column;
     font-weight: 200;
     justify-content: space-evenly;
+}
+
+@media(max-width: 1000px) {
+
+    .who-overlay {
+        width: 64%;
+    }
+
+    .who-banner-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .who-description > p {
+        font-size: 0.9rem;
+    }   
+
+    .who-img {
+        width: 64%;
+        margin: 0 auto;
+    }
 }

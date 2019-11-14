@@ -20,3 +20,13 @@
     transform: translateX(-50%);
 }
 
+@media(max-width: 1000px) {
+    .banner-overlay {
+        width: 72%;
+    }
+}
+
+@media(max-width: 560px) {
+    .banner-overlay {
+    }   
+}

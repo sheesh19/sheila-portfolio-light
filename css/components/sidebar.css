@@ -4,9 +4,11 @@
     position: sticky;
     width: 100%;
     background-color: var(--light-blue);
-
+    z-index: 4;
     top: 0;
     padding-top: 16vh;
+    opacity: 1;
+    transition: all 350ms ease-in-out;
 }
 
 .nav-link {
@@ -19,8 +21,65 @@
     color: white;
 }
 
-.active {
+.nav-link.active {
     background-color: var(--teal-overlay);
     color: var(--grey);
 }
 
+#nav-button {
+    display: none;
+}
+
+@media(max-width: 560px) {
+    .sidebar {
+        opacity: 0;
+        width: 0;
+        position: fixed;
+    }
+
+    .sidebar.active {
+        width: 100%;
+        opacity: 1;
+    }
+
+    #nav-button {
+        display: inline;
+        position: fixed;
+        z-index: 5;
+        top: 15px;
+        left: 15px;
+        cursor: pointer;
+        transition: left 500ms ease-in-out;
+    }
+    
+    #top, #middle, #bottom {
+        width: 35px;
+        height: 2px;
+        margin-bottom: 8px;
+        background-color: var(--dark-overlay);
+        transition: transform 500ms ease-in-out, opacity 500ms, background-color 250ms;
+    }
+    
+    #nav-button.active {
+        left: 104px;
+    }
+    
+    #nav-button.active .nav-slim-bar {
+        background-color: white;
+    }
+    
+    #nav-button.active #top {
+        transform: translateY(10px) rotate(-135deg);
+    }
+    
+    #nav-button.active #middle {
+        opacity: 0;
+        transform: rotate(135deg);
+    }
+    
+    #nav-button.active #bottom {
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+
+}
