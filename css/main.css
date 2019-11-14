@@ -61,7 +61,6 @@ a.active {
 }
 
 .content-container {
-    margin-top: 24vh;
     width: 80%;
     margin-left: 6vw;
 }
@@ -82,7 +81,7 @@ a.active {
 }
 
 .block-space {
-    margin-top: 16vh;
+    margin-bottom: 16vh;
 }
 
 em {

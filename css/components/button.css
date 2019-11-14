@@ -11,3 +11,13 @@
     background-color: white;
     cursor: pointer;
 }
+
+.button-white-outline:visited {
+    color: color: var(--light-blue);
+    text-decoration: none;
+}
+
+.button-white-outline:active {
+    color: color: var(--light-blue);
+    text-decoration: none;
+}

@@ -1,3 +1,7 @@
+.why-block {
+    margin-top: 24vh;
+}
+
 .why-icons {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -8,6 +12,11 @@
 .icon {
     height: 100px;
     width: 100px;
+}
+
+.why-icon-block {
+    padding-top: 4vh;
+    padding-bottom: 2vh;
 }
 
 @media(max-width: 560px) {
