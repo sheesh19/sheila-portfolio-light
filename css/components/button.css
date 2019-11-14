@@ -9,4 +9,5 @@
 .button-white-outline:hover {
     color: var(--light-blue);
     background-color: white;
+    cursor: pointer;
 }
