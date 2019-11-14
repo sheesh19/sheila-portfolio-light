@@ -1,6 +1,4 @@
 let mainNavLinks = document.querySelectorAll(".nav-link a");
-
-console.log(mainNavLinks)
 let lastId;
 let cur = [];
 

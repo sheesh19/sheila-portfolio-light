@@ -69,3 +69,18 @@
         margin: 0 auto;
     }
 }
+
+@media(max-width: 560px) {
+    .who-overlay {
+        width: 92%;
+        padding: 4vh 2vh;
+    }
+
+    .who-block {
+        height: 136vh;
+    }
+
+    .who-img {
+        margin-bottom: 4vh;
+    }
+}

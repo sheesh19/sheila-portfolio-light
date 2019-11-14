@@ -42,5 +42,7 @@
 @media(max-width: 560px) {
     .social {
         width: 72%;
+        margin-left: 0;
     }
+
 }

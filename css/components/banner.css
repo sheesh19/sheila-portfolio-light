@@ -14,7 +14,7 @@
     background-color: var(--teal);
     color: white;
     text-align: center;
-    padding: 8vh;
+    padding: 4vh;
     border-radius: 2%;
     left: 50%;
     transform: translateX(-50%);
@@ -22,7 +22,7 @@
 
 @media(max-width: 1000px) {
     .banner-overlay {
-        width: 72%;
+        width: 80%;
     }
 }
 

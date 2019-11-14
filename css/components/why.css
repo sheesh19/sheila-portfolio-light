@@ -14,4 +14,8 @@
     .why-icons {
         grid-template-columns: 1fr;
     }   
+
+    .why-block {
+        margin-top: 29vh;
+    }
 }

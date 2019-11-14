@@ -80,4 +80,8 @@
     .what-grid {
         grid-gap: 4vh;
     }
+
+    .what-card {
+        border-radius: 0;
+    }
 }
