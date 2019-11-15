@@ -1,0 +1,19 @@
+.lost-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--light-blue);
+    text-align: center;
+}
+
+.lost-text {
+    padding: 16% 0;
+}
+
+.lost-text > p {
+    padding-bottom: 2vh;
+}
+
+.lost-title {
+    color: white;
+    margin-top: 0;
+}

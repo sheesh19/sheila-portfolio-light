@@ -4,6 +4,7 @@
 @import 'components/sidebar.css';
 @import 'components/banner.css';
 @import 'components/footer.css';
+@import 'components/error-page.css';
 
 @import 'components/why.css';
 @import 'components/what.css';
