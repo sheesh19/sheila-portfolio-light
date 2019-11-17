@@ -35,7 +35,7 @@
         opacity: 0;
         width: 0;
         position: fixed;
-        transition: all 500ms ease-in-out;
+        transition: width 500ms ease-in-out, opacity 500ms ease-in-out, z-index 500ms ease-in-out;
     }
 
     .sidebar.active {
@@ -89,6 +89,10 @@
     }
 
     .nav-link {
-        padding: 4vh 8vw;
+        padding: 4vh 0;
+    }
+
+    .nav-link-anchor {
+        padding: 0 32vw;
     }
 }

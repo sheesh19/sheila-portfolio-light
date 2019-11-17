@@ -13,6 +13,9 @@
 }
 
 /* Main Body */
+* {
+    -webkit-overflow-scrolling: touch;
+}
 
 html {
     scroll-behavior: smooth;
