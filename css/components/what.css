@@ -29,6 +29,7 @@
     padding-bottom: 16px;
     padding-top: 6%;
     transition: padding 0.2s ease-in-out;
+
 }
 
 .what-card:hover .what-title {
