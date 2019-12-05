@@ -74,13 +74,19 @@
     .who-overlay {
         width: 92%;
         padding: 4vh 2vh;
+        height: 680px;
     }
 
     .who-block {
-        height: 128vh;
+        height: 900px;
+    }
+
+    .who-description {
+        height: 300px;
     }
 
     .who-img {
         margin-bottom: 4vh;
+        width: 260px;
     }
 }
